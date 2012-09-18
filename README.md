@@ -3,10 +3,14 @@ data_generator
 
 Generates test data and copies it to clipboard.
 
-Version 0.001 - Early days yet, friends. Handle with care.
+Version 0.1 - Early days yet, friends. Handle with care.
 
 Usage
 ==============
+
+You will need: 
+- Ruby (this was developed on ruby-1.9.3-p194)
+- OSX or Windows
 
 1. Fire up your command line prompt.
 2. Enter any of the following:
