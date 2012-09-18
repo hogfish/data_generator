@@ -1,5 +1,5 @@
 require 'rubygems'
-require_relative 'lib/data_generator'
+require_relative 'data_generator'
 
 dg = DataGenerator.new
 
@@ -21,10 +21,6 @@ if ARGV[0] != nil
     output = dg.random_words(ARGV[1])
     `echo #{output} | #{paste_command}`
     puts output
-  when "special_chars"
-    output = dg.special_characters
-    `echo #{output} | #{paste_command}`
-    puts "Special characters copied to clipboard."
   else
     #TODO: Make this a better error message
     puts"Invalid parameters."
