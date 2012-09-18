@@ -25,10 +25,7 @@ ruby datagen.rb email [email address]<br/>
 e.g. ruby datagen.rb bob@example.com<br/>
 will copy "bob+somethingrandom@example.com" to clipboard
 
-Upcoming:
-- Special characters
-- Integration with counterstring
-- Instructions for integrating with keyboard shortcuts (some vague details about this here: http://trishkhoo.com/2010/12/go-faster-linking-data-generation-to-hotkeys/)
+Instructions for integrating with keyboard shortcuts (some vague details about this here: http://trishkhoo.com/2010/12/go-faster-linking-data-generation-to-hotkeys/)
 
 Credit where credit's due:<br/>
 Many of these concepts and bits of code were copied with permission from James Martin [https://github.com/jamesmartin]
